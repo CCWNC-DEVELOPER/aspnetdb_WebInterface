@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{7ACC0447-EFD2-40A9-ADE9-E855BEDCF917}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CCWNC411_Security</RootNamespace>
+    <AssemblyName>CCWNC411_Security</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>CCWNC411_Security.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <ExcludeApp_Data>true</ExcludeApp_Data>
+    <PublishDatabases>false</PublishDatabases>
+    <DeployIisAppPath>http://172.15.189.14:33666/CCWNC411_Security</DeployIisAppPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>CCWNC411_Security.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword_.aspx" />
+    <Content Include="Account\ChangePasswordSuccess_.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register_.aspx" />
+    <Content Include="Notes_and_WebConfig\ConnectionStrings.txt" />
+    <Content Include="JUNK\Roles_for_Application_CodeBehind.txt" />
+    <Content Include="JUNK\Roles_for_Application_Markup.txt" />
+    <Content Include="LockedDown\Applications_Child.aspx" />
+    <Content Include="LockedDown\Applications_Main.aspx" />
+    <Content Include="LockedDown\Applications_subChild_UpdateRecord.aspx" />
+    <Content Include="LockedDown\Applications_subChild_NewRecord.aspx" />
+    <Content Include="LockedDown\Roles_for_Application.aspx" />
+    <Content Include="LockedDown\Roles_for_User_Applications.aspx" />
+    <Content Include="LockedDown\Roles_Main.aspx" />
+    <Content Include="LockedDown\User_CRUD.aspx" />
+    <Content Include="LockedDown\Users_Main.aspx" />
+    <Content Include="LockedDown\User_InsertNewUser.aspx" />
+    <Content Include="Notes_and_WebConfig\CustomErrors_for_WebConfig.txt" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.designer.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword_.aspx.designer.vb">
+      <DependentUpon>ChangePassword_.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword_.aspx.vb">
+      <DependentUpon>ChangePassword_.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess_.aspx.designer.vb">
+      <DependentUpon>ChangePasswordSuccess_.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess_.aspx.vb">
+      <DependentUpon>ChangePasswordSuccess_.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register_.aspx.designer.vb">
+      <DependentUpon>Register_.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register_.aspx.vb">
+      <DependentUpon>Register_.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BackEndCode\cJUNK.vb" />
+    <Compile Include="BackEndCode\c_DataBase.vb" />
+    <Compile Include="BackEndCode\mod_Backend_Common.vb" />
+    <Compile Include="BackEndCode\ROLE_Backend.vb" />
+    <Compile Include="BackEndCode\USER_APPLICATION_ROLE.vb" />
+    <Compile Include="BackEndCode\USER_Backend.vb" />
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LockedDown\Applications_Child.aspx.designer.vb">
+      <DependentUpon>Applications_Child.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LockedDown\Applications_Child.aspx.vb">
+      <DependentUpon>Applications_Child.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LockedDown\Applications_Main.aspx.designer.vb">
+      <DependentUpon>Applications_Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LockedDown\Applications_Main.aspx.vb">
+      <DependentUpon>Applications_Main.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LockedDown\Applications_subChild_UpdateRecord.aspx.designer.vb">
+      <DependentUpon>Applications_subChild_UpdateRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LockedDown\Applications_subChild_UpdateRecord.aspx.vb">
+      <DependentUpon>Applications_subChild_UpdateRecord.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LockedDown\Applications_subChild_NewRecord.aspx.designer.vb">
+      <DependentUpon>Applications_subChild_NewRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LockedDown\Applications_subChild_NewRecord.aspx.vb">
+      <DependentUpon>Applications_subChild_NewRecord.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LockedDown\Roles_for_Application.aspx.designer.vb">
+      <DependentUpon>Roles_for_Application.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LockedDown\Roles_for_Application.aspx.vb">
+      <DependentUpon>Roles_for_Application.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LockedDown\Roles_for_User_Applications.aspx.designer.vb">
+      <DependentUpon>Roles_for_User_Applications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LockedDown\Roles_for_User_Applications.aspx.vb">
+      <DependentUpon>Roles_for_User_Applications.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LockedDown\Roles_Main.aspx.designer.vb">
+      <DependentUpon>Roles_Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LockedDown\Roles_Main.aspx.vb">
+      <DependentUpon>Roles_Main.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LockedDown\User_CRUD.aspx.designer.vb">
+      <DependentUpon>User_CRUD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LockedDown\User_CRUD.aspx.vb">
+      <DependentUpon>User_CRUD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LockedDown\Users_Main.aspx.designer.vb">
+      <DependentUpon>Users_Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LockedDown\Users_Main.aspx.vb">
+      <DependentUpon>Users_Main.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LockedDown\User_InsertNewUser.aspx.designer.vb">
+      <DependentUpon>User_InsertNewUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LockedDown\User_InsertNewUser.aspx.vb">
+      <DependentUpon>User_InsertNewUser.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BackEndCode\c_Error.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="LockedDown\Web.config" />
+    <Content Include="LockedDown\Web_Debug_Version.config" />
+    <Content Include="LockedDown\Web_Working_Version.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+    <Content Include="Notes_and_WebConfig\Web_Working_Version.config" />
+    <Content Include="Notes_and_WebConfig\Web_Debug_Version.config" />
+    <None Include="Notes_and_WebConfig\Web.config_Shell" />
+    <Content Include="Styles\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62209</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

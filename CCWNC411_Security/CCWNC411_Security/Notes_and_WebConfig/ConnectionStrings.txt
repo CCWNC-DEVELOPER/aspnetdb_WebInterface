@@ -1,0 +1,20 @@
+﻿/* at work */
+
+  <connectionStrings>
+    <add name="SHAREPOINT01_aspnetdb" connectionString="Data Source=SHAREPOINT01;Initial Catalog=aspnetdb;Integrated Security=True"
+      providerName="System.Data.SqlClient" />
+    <add name="DB2_CRMConnectionString1" connectionString="Data Source=SQL-SERVER\PRODUCTION;Initial Catalog=DB2_CRM;Integrated Security=True"
+      providerName="System.Data.SqlClient" />
+    <add name="DB2_CRMConnectionString2" connectionString="Data Source=SQL-SERVER\PRODUCTION;Initial Catalog=DB2_CRM;Persist Security Info=True;User ID=Web_ASP_NET_user;Password=abcde12345"
+      providerName="System.Data.SqlClient" />
+  </connectionStrings>
+
+/* On HomeTower */
+
+
+  <connectionStrings>
+    <add name="SHAREPOINT01_aspnetdb" connectionString="Data Source=.\DEV;Initial Catalog=aspnetdb;Integrated Security=True"
+      providerName="System.Data.SqlClient" />
+    <add name="aspnetdbConnectionString1" connectionString="Data Source=HOMETOWER\DEV;Initial Catalog=aspnetdb;Integrated Security=True"
+      providerName="System.Data.SqlClient" />
+  </connectionStrings>

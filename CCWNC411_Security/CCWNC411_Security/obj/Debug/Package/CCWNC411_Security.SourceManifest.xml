@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="P:\prj_0031_Web_Applications_on_SharePoint01\WA003_CCWNC411_Security\CCWNC411_Security\CCWNC411_Security\obj\Debug\Package\PackageTmp" managedRuntimeVersion="v4.0" />
+  <setAcl path="P:\prj_0031_Web_Applications_on_SharePoint01\WA003_CCWNC411_Security\CCWNC411_Security\CCWNC411_Security\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="P:\prj_0031_Web_Applications_on_SharePoint01\WA003_CCWNC411_Security\CCWNC411_Security\CCWNC411_Security\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

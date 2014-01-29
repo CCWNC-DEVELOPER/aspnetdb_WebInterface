@@ -1,0 +1,492 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CCWNC411_Security
+</name>
+</assembly>
+<members>
+<member name="F:CCWNC411_Security.Applications_subChild.DetailsView1">
+	<summary>
+DetailsView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Applications_subChild.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_Application.DropDownList_Application">
+	<summary>
+DropDownList_Application control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_Application.SqlDataSource_DropDownList">
+	<summary>
+SqlDataSource_DropDownList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_Application.lbl_Message">
+	<summary>
+lbl_Message control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_Application.btn_GetListOfRolesForTheApplication">
+	<summary>
+btn_GetListOfRolesForTheApplication control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_Application.btn_AddNewRoleToApplication">
+	<summary>
+btn_AddNewRoleToApplication control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_Application.txt_NewRoleToAddToApplication">
+	<summary>
+txt_NewRoleToAddToApplication control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_Application.GridView_RolesInTheApplication">
+	<summary>
+GridView_RolesInTheApplication control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_Application.ods_for_GridView">
+	<summary>
+ods_for_GridView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Applications_Child.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Applications_Child.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Applications_Child.HyperLink2">
+	<summary>
+HyperLink2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Applications_Child.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Users_Main.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Users_Main.HyperLink2">
+	<summary>
+HyperLink2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_User_Applications.DropDownList_Application">
+	<summary>
+DropDownList_Application control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_User_Applications.SqlDataSource_DropDownList_Application">
+	<summary>
+SqlDataSource_DropDownList_Application control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_User_Applications.DropDownList_Role">
+	<summary>
+DropDownList_Role control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_User_Applications.SqlDataSource_DropDownList_Role">
+	<summary>
+SqlDataSource_DropDownList_Role control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_User_Applications.btn_View_Users_in_RoleApplication">
+	<summary>
+btn_View_Users_in_RoleApplication control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_User_Applications.lbl_Message">
+	<summary>
+lbl_Message control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_User_Applications.GridView_UsersInApplicationRole">
+	<summary>
+GridView_UsersInApplicationRole control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_User_Applications.ods_GridView_UsersInApplicationRole">
+	<summary>
+ods_GridView_UsersInApplicationRole control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_User_Applications.DropDownList_User">
+	<summary>
+DropDownList_User control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_User_Applications.ods_DropDownList_User">
+	<summary>
+ods_DropDownList_User control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_User_Applications.btn_AddUser_to_RoleApplication">
+	<summary>
+btn_AddUser_to_RoleApplication control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_for_User_Applications.txt_NewUserToAddToRoleApplication">
+	<summary>
+txt_NewUserToAddToRoleApplication control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Login.LoginUser">
+	<summary>
+LoginUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Register.RegisterUser">
+	<summary>
+RegisterUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Register.RegisterUserWizardStep">
+	<summary>
+RegisterUserWizardStep control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:CCWNC411_Security.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:CCWNC411_Security.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:CCWNC411_Security.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:CCWNC411_Security.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:CCWNC411_Security.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:CCWNC411_Security.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:CCWNC411_Security.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:CCWNC411_Security.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:CCWNC411_Security.Applications_Main.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_Main.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Roles_Main.HyperLink2">
+	<summary>
+HyperLink2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Applications_subChild_UpdateRecord.DetailsView1">
+	<summary>
+DetailsView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Applications_subChild_UpdateRecord.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.ChangePassword.ChangeUserPassword">
+	<summary>
+ChangeUserPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.User_CRUD.SqlDataSource_DropDownList">
+	<summary>
+SqlDataSource_DropDownList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.User_CRUD.ods_GridView_Users">
+	<summary>
+ods_GridView_Users control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.User_CRUD.ods_ViewDetails_User">
+	<summary>
+ods_ViewDetails_User control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.User_CRUD.lbl_Message">
+	<summary>
+lbl_Message control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.User_CRUD.btn_ListUsersForSelectedApplication">
+	<summary>
+btn_ListUsersForSelectedApplication control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.User_CRUD.DropDownList_Application">
+	<summary>
+DropDownList_Application control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.User_CRUD.GridView_UsersInApplication">
+	<summary>
+GridView_UsersInApplication control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.User_CRUD.DetailsView_User">
+	<summary>
+DetailsView_User control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security._Default.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security._Default.HyperLink3">
+	<summary>
+HyperLink3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security._Default.HyperLink2">
+	<summary>
+HyperLink2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Site.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Site.HeadLoginView">
+	<summary>
+HeadLoginView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Site.NavigationMenu">
+	<summary>
+NavigationMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.Site.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.User_InsertNewUser.dv_User">
+	<summary>
+dv_User control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.User_InsertNewUser.ods_dv_User">
+	<summary>
+ods_dv_User control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.User_InsertNewUser.lblConfirmation">
+	<summary>
+lblConfirmation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:CCWNC411_Security.User_InsertNewUser.SqlDataSource_DropDownList">
+	<summary>
+SqlDataSource_DropDownList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

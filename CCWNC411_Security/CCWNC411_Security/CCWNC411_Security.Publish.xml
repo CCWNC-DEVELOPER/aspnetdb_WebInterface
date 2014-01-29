@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="http://SHAREPOINT01/msdeployagentservice" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="CCWNC411_Security" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="False" msdeployMarkAsApp="True" profileName="CCWNC411_Security_WebDeploy" publishMethod="MSDeploy" replaceMatchingFiles="True" userName="ggarson" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAr8qPdALERESuwHz+LEF4ZAAAAAACAAAAAAADZgAAwAAAABAAAABGKwLOyNR2suZRU9xDr1s6AAAAAASAAACgAAAAEAAAAPqA7isZ5kJH1XPBm+jQQQUYAAAA3XBIcm1TowupGqj6XkCEY46mG+tVOXAKFAAAAMbSvKZd/BNVxxtbJg1PZUpPL1Rn" SelectedForPublish="True" />
+</publishData>

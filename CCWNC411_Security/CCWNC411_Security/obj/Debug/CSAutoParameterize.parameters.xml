@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SHAREPOINT01_aspnetdb-Web.config Connection String" description="SHAREPOINT01_aspnetdb Connection String used in web.config by the application to access the database." defaultvalue="Server=SHAREPOINT01; Database=aspnetdb; User Id=Web_ASP_NET_user; password= abcde12345" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="P:\\prj_0031_Web_Applications_on_SharePoint01\\WA003_CCWNC411_Security\\CCWNC411_Security\\CCWNC411_Security\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SHAREPOINT01_aspnetdb']/@connectionString" />
+  </parameter>
+  <parameter name="SHAREPOINT01_aspnetdb_OLD-Web.config Connection String" description="SHAREPOINT01_aspnetdb_OLD Connection String used in web.config by the application to access the database." defaultvalue="Data Source=SHAREPOINT01;Initial Catalog=aspnetdb;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="P:\\prj_0031_Web_Applications_on_SharePoint01\\WA003_CCWNC411_Security\\CCWNC411_Security\\CCWNC411_Security\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SHAREPOINT01_aspnetdb_OLD']/@connectionString" />
+  </parameter>
+  <parameter name="DB2_CRMConnectionString1-Web.config Connection String" description="DB2_CRMConnectionString1 Connection String used in web.config by the application to access the database." defaultvalue="Data Source=SQL-SERVER\PRODUCTION;Initial Catalog=DB2_CRM;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="P:\\prj_0031_Web_Applications_on_SharePoint01\\WA003_CCWNC411_Security\\CCWNC411_Security\\CCWNC411_Security\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DB2_CRMConnectionString1']/@connectionString" />
+  </parameter>
+  <parameter name="DB2_CRMConnectionString2-Web.config Connection String" description="DB2_CRMConnectionString2 Connection String used in web.config by the application to access the database." defaultvalue="Data Source=SQL-SERVER\PRODUCTION;Initial Catalog=DB2_CRM;Persist Security Info=True;User ID=Web_ASP_NET_user;Password=abcde12345" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="P:\\prj_0031_Web_Applications_on_SharePoint01\\WA003_CCWNC411_Security\\CCWNC411_Security\\CCWNC411_Security\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DB2_CRMConnectionString2']/@connectionString" />
+  </parameter>
+</parameters>
